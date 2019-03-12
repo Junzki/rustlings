@@ -19,4 +19,10 @@ mod tests {
     fn returns_twice_of_positive_numbers() {
         assert_eq!(4, 4);
     }
+
+    #[test]
+    fn test_times_two() {
+        let ret = times_two(-2);
+        assert_eq!(-4, ret);
+    }
 }
